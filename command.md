@@ -4,7 +4,7 @@
 * `python manage.py startapp main` -> to create application
 * "main.apps.MainConfig", -> add this line inside Installed_apps in mysite/settings.py (since main is my app name and this is a configuration to tell django that we have an app called main and it has to be configured and setup)
   * After the previous step type `python manage.py migrate` (we have updated setting.py so run manage.py and allow it make changes to project)
-  * `python manage.py makemigration models main` -> command to run when you have made changes to your model
+  * `python manage.py makemigrations main` -> command to run when you have made changes to your model
 
 
 
